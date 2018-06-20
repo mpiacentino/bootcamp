@@ -1,0 +1,11 @@
+[
+  "test_seq_features.py::test_number_negatives_single_aa",
+  "test_seq_features.py::test_number_negatives_short_seqs",
+  "test_seq_features.py::test_number_negatives_lowercase",
+  "test_seq_features.py::test_number_negatives_invalid_amino_acid",
+  "test_seq_features.py::test_number_positives_single_aa",
+  "test_seq_features.py::test_number_positives_short_seqs",
+  "test_seq_features.py::test_number_positives_lowercase",
+  "test_seq_features.py::test_number_positives_invalid_amino_acid",
+  "test_seq_features.py::test_is_valid_with_Z"
+]
