@@ -9,5 +9,5 @@ def parseFASTA(input, output):
         for line in f:
             seq += line.rstrip();
         f_out.write(seq)
-        
+	#testing comment        
     print(seq[:500] + '...')
