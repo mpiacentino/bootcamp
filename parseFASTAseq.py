@@ -1,9 +1,9 @@
 import os
 
-def parseFASTA(input, output):
+def parseFASTA(in_file, out_file):
     """Take FASTA file and export new file of a str containing full sequence without header"""
 
-    with open(input, 'r') as f, open(output, 'w') as f_out:
+    with open(in_file, 'r') as f, open(out_file, 'w') as f_out:
         seq = ''
         next(f)
         for line in f:

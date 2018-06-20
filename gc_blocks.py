@@ -63,6 +63,7 @@ def gc_map(seq, block_size, gc_thresh):
     return ''.join(gc_map_list)
     
     
-    
-    
-    
+"""David's approach
+        instead of using a tuple for the blocks and gc_cont, he used a list first, populated it, then you can return a tuple
+            -however, when i'm building the tuple block by block, it alocates a new tuple in memory each time
+            -lists, since mutable, will alocate a larger block of memory, so tuple might be better to do"""
