@@ -1,0 +1,4 @@
+df = pd.read_csv('data/grant_complete.csv', comment='#')
+df = df.loc[(df['year']==1987) & (df['species']=='scandens'), :]
+df = df.drop_duplicates(subset=['band'])
+df = df[['beak length (mm)', 'beak depth (mm)']]

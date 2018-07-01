@@ -1,0 +1,9 @@
+pipeline
+
+load image
+median filter
+gaussian noise subtraction
+otsu threshold
+clear border
+region props - intensity*area (integrated intensity)
+size exclusion (sieve)
